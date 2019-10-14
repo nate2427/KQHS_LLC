@@ -1,0 +1,1 @@
+# to make views a module

@@ -14,5 +14,8 @@ def create_app():
     # db setup
     mongo.init_app(app)
 
+    # blueprint configurations
+    from .views import index
+    app.register_blueprint(index.bp)
 
     return app
