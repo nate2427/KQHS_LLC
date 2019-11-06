@@ -1,22 +1,69 @@
-.App {
+html {
+  position: relative;
+}
+
+body {
+  position: relative;
+  background-image: url("./static/images/banner/Slide1.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.outer-wrpr {
+  position: relative;
+  width: 100%;
+  border: 5px solid #D8D36B;
+  height: 200px;
+  margin-top: 20px;
+  background-color: rgba(0,0,0,0.85);
+}
+
+.kqhs-nav-items {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  display: inline;
+  list-style-type: none;
+}
+
+li a {
+  display: inline-block;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
-.App-link {
-  color: #09d3ac;
+li a:hover {
+  text-decoration: none;
+  color: red;
+}
+
+.kqhs-nav-wrpr {
+  position: relative;
+}
+
+.kqhs-nav-item {
+
+}
+
+.nav-items-wrpr {
+  text-align: center;
+  margin: auto;
+}
+
+.kqhs-navbar {
+  height: auto;
+  background-color: rgba(0,0,0,0.85);
+}
+
+.kqhs-nav-cntr {
+  padding-left: unset;
+  padding-right: unset;
 }
