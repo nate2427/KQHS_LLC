@@ -1,0 +1,37 @@
+.title-comp {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5%;
+}
+
+.txt {
+    color: white;
+}
+h1.title.txt,
+h1.sub-title.txt{
+    letter-spacing: 2px;
+    font-size: 38px;
+    font-family: "Lato",sans-serif;
+    font-style: italic;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 1.1;
+}
+
+h1.sub-title.txt {
+    margin-bottom: 5%;
+}
+
+
+h1.sub-title.txt:hover {
+    color: #8A191B;
+    cursor: pointer;
+}
+
+h4.phn-nmbr.txt {
+    font-size: 38px;
+    color: #8A191B;
+}

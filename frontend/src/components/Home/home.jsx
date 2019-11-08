@@ -1,5 +1,6 @@
 import React from 'react';
 import {withRouter} from 'react-router';
+import KQHSTitle from '../kqhs-title/kqhs-title';
 
 
 
@@ -9,7 +10,9 @@ class Home extends React.Component {
     render = () => {
         return (
             <React.Fragment>
-                <h1 style={ {color: "white"} }>Home Component</h1>
+                <div className="homepage">
+                    <KQHSTitle/>
+                </div>
             </React.Fragment>
         );
     }

@@ -9,6 +9,7 @@ body {
 
 .container-fluid.main-cnt {
   margin-top: 20px;
+  margin-bottom: 100px;
   padding: 0px 96px;
 }
 
@@ -16,7 +17,6 @@ body {
   position: relative;
   width: 100%;
   border: 5px solid #D8D36B;
-  height: 200px;
   background-color: rgba(0,0,0,0.85);
 }
 
