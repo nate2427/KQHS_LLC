@@ -1,0 +1,9 @@
+.kqhs-navbar {
+    background-color: rgba(0,0,0,0.85);
+    overflow: hidden;
+  }
+
+  .kqhs-nav-cntr {
+    padding-left: unset;
+    padding-right: unset;
+  }

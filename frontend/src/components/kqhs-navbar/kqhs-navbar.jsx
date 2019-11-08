@@ -1,30 +1,28 @@
 import React from 'react';
 import  Navbar  from "react-bootstrap/Navbar";
 import  Nav  from "react-bootstrap/Nav";
-import  NavDropdown  from "react-bootstrap/NavDropdown";
+import { Link } from "react-router-dom";
 
-import navStyles from './kqhs-navbar.css';
+import './kqhs-navbar.css';
 
 
 
 class KQHSNavbar extends React.Component {
 	render() {
-        console.log(navStyles);
 		return (
             <div className="kqhs-navbar-cmp">
                 <Navbar className='kqhsNavEle'>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="mr-auto">
-                            <Nav.Link className='kqhs-nav-link' href="#home">Home</Nav.Link>
-                            <Nav.Link className='kqhs-nav-link' href="#link">Link</Nav.Link>
-                            <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-                                <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                                <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-                                <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                                <NavDropdown.Divider />
-                                <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-                            </NavDropdown>
+                            <Link to="/" className="kqhs-nav-link nav-link link">Home</Link>
+                            <div className='dropdown nav-item'>
+                                <Link to="/services" className="kqhs-nav-link nav-link">Services</Link>
+                                <div className="dropdown-menu">
+                                    <Link className='dropdown-item' to='/contact'>Click for contact</Link>
+                                </div>
+                            </div>
+                            <Link to="/contact" className='kqhs-nav-link nav-link'>Contact</Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Navbar>

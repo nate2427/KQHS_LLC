@@ -1,0 +1,12 @@
+.bottom-nav-wrpr {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.container-fluid.bottom-nav {
+    padding: unset;
+    position: fixed;
+    bottom: 0;
+}
+

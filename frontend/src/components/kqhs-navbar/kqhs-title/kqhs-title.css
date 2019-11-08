@@ -23,14 +23,12 @@
 }
 
 .box .inner:first-child {
-    /* background-color: indianred; */
     color: #8A191B;
     transform-origin: left;
     transform: perspective(300px) rotateY(-67.3deg);
 }
 
 .box .inner:last-child {
-    /* background-color: lightcoral; */
     color: #D8D36B;
     transform-origin: right;
     transform: perspective(300px) rotateY(67.3deg);

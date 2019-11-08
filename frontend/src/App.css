@@ -1,13 +1,15 @@
-html {
-  position: relative;
-}
-
 body {
-  position: relative;
   background-image: url("./static/images/banner/Slide1.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
+  background-size: auto;
+}
+
+
+.container-fluid.main-cnt {
+  margin-top: 20px;
+  padding: 0px 96px;
 }
 
 .outer-wrpr {
@@ -15,7 +17,6 @@ body {
   width: 100%;
   border: 5px solid #D8D36B;
   height: 200px;
-  margin-top: 20px;
   background-color: rgba(0,0,0,0.85);
 }
 
@@ -58,12 +59,14 @@ li a:hover {
   margin: auto;
 }
 
-.kqhs-navbar {
-  height: auto;
-  background-color: rgba(0,0,0,0.85);
+.container-fluid:first-child {
+  padding: unset;
 }
 
-.kqhs-nav-cntr {
-  padding-left: unset;
-  padding-right: unset;
+.navbar-collapse.collapse {
+  justify-content: center;
+}
+
+.navbar-collapse.collapse .mr-auto.navbar-nav {
+  margin-right: unset!important;
 }
