@@ -20,6 +20,14 @@ body {
   background-color: rgba(0,0,0,0.85);
 }
 
+.red  {
+  background-color: #8A191B;
+}
+
+.no-brdr {
+  border: unset;
+}
+
 .kqhs-nav-items {
   list-style-type: none;
   margin: 0;
@@ -43,7 +51,7 @@ li a {
 
 li a:hover {
   text-decoration: none;
-  color: red;
+  color: #8A191B;
 }
 
 .kqhs-nav-wrpr {

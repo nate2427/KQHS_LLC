@@ -2,16 +2,14 @@ import  React  from "react";
 
 import './kqhs-title.css';
 
-class KQHSTitle extends React.Component {
+const content = {
+    title: "BED BUGS, TERMITES Bugs, Termites, Quality and Sanitation - Is our life.",
+    altSubTitleText: "Allow the Kaptain to provide you around the helm protection.",
+    phone: "(616) 427-0752",
 
-    constructor (props) {
-        super(props);
-        this.state = {
-            title: "BED BUGS, TERMITES & WEEDS – OH NO!",
-            altSubTitleText: "PEST CONTROL SERVICES IN GLENDALE AZ",
-            phone: "623-388-0303"
-        }
-    }
+}
+
+class KQHSTitle extends React.Component {
 
     render = () => {
 
@@ -19,9 +17,9 @@ class KQHSTitle extends React.Component {
         return (
             <React.Fragment>
                 <div className="title-comp">
-                    <h1 className='title txt'>{this.state.title}</h1>
-                    <h1 className='sub-title txt'>{this.state.altSubTitleText}</h1>
-                    <h4 className='phn-nmbr txt'>{this.state.phone}</h4>
+                    <h1 className='title txt'>{content.title}</h1>
+                    <h1 className='sub-title txt'>{content.altSubTitleText}</h1>
+                    <h4 className='phn-nmbr txt'>{content.phone}</h4>
                 </div>
             </React.Fragment>
         ); 

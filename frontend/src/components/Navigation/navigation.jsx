@@ -26,15 +26,22 @@ class Navigation extends React.Component {
                                 <KQHSTitle/>
                             </Col>
                         </Row>
-                        {/* nav links */}
-                        <Row>
-                            <Col md='12' className='kqhs-nav-cntr'>
-                                <div className='kqhs-nav-wrpr'>
-                                    <KQHSNavbar/>
-                                </div>
-                            </Col>
-                        </Row>
                     </div>
+                </Container>
+                {/* nav links */}
+                <Container
+                    fluid={true}
+                    className='kqhs-sticky'
+                >
+                    <Row>
+                        <Col md='12' className='kqhs-nav-cntr'>
+                            <span></span>
+                            <div className='kqhs-nav-wrpr'>
+                                <KQHSNavbar/>
+                            </div>
+                        </Col>
+                    </Row>
+
                 </Container>
             </React.Fragment>
         );
@@ -42,3 +49,9 @@ class Navigation extends React.Component {
 }
 
 export default Navigation;
+
+
+
+/*
+    
+*/

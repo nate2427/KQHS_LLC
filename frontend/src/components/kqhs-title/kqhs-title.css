@@ -8,7 +8,7 @@
 }
 
 .txt {
-    color: white;
+    color:#C0C0C0;
 }
 h1.title.txt,
 h1.sub-title.txt{
@@ -19,19 +19,25 @@ h1.sub-title.txt{
     font-weight: 900;
     text-transform: uppercase;
     line-height: 1.1;
+    text-align: center;
 }
 
 h1.sub-title.txt {
-    margin-bottom: 5%;
+    margin-bottom: 3%;
+    width: 75%;
 }
 
 
-h1.sub-title.txt:hover {
+h1.sub-title.txt:hover,
+h4.phn-nmbr.txt {
     color: #8A191B;
     cursor: pointer;
 }
 
 h4.phn-nmbr.txt {
     font-size: 38px;
-    color: #8A191B;
+    font-family: "Lato",sans-serif;
+    font-style: italic;
+    font-weight: 900;
+    text-transform: uppercase;
 }

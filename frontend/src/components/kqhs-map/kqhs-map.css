@@ -1,0 +1,57 @@
+.bottom-page-content-map  {
+    /* padding: 50px;; */
+    padding: 0 50px;
+}
+
+.got-bats {
+    background-color: rgba(0,0,0,.5);
+    border-style: solid;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.bats-link {
+    letter-spacing: -0.042em;
+    font-family: "Lato",sans-serif;
+    font-style: italic;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 171.4%;
+    margin-top: 1.75em;
+    margin-bottom: 0.5em;
+    line-height: 1.4;
+    text-rendering: optimizelegibility;
+}
+
+.bats-link a {
+    text-decoration: unset;
+    color: #C0C0C0;
+}
+
+.bats-link a:hover {
+    color: #8A191B;
+}
+
+.bats-quote-link {
+    font-style: normal;
+    font-weight: 400;
+    font-family: "Oxygen",sans-serif;
+    line-height: 1.8;
+}
+
+.bats-quote-link a:hover {
+    color: #D8D36B;
+}
+
+.bats-quote-link a {
+    color: #8A191B;
+    text-decoration: unset;
+}
+
+.form-group .form-control {
+    color: #C0C0C0;
+}
+
+ .kqhs-google-map {
+    margin-bottom: 1.5em;
+ }

@@ -7,6 +7,8 @@ import Home from './components/Home/home';
 import Services from './components/Services/services';
 import Contact from './components/Contact/contact';
 import Navigation from './components/Navigation/navigation';
+import KQHSContactSection from './components/kqhs-contact-section/kqhs-contact-section';
+import KQHSMap from './components/kqhs-map/kqhs-map';
 
 
 
@@ -25,12 +27,13 @@ class App extends React.Component {
           >
             <div className="outer-wrpr">
               
-                <Switch>
-                  <Route path="/" exact component={Home} />
-                  <Route path="/services" component={Services} />
-                  <Route path="/contact" component={Contact} />
-                </Switch>
-              
+              <Switch>
+                <Route path="/" exact component={Home} />
+                <Route path="/services" component={Services} />
+                <Route path="/contact" component={Contact} />
+              </Switch>
+              <KQHSContactSection/>
+              <KQHSMap/>
             </div>
           </Container>
           <BottomNavBar/>
