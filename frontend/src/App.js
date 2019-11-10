@@ -10,6 +10,7 @@ import Navigation from './components/Navigation/navigation';
 import KQHSContactSection from './components/kqhs-contact-section/kqhs-contact-section';
 import KQHSMap from './components/kqhs-map/kqhs-map';
 import KQHSButtonGroup from './components/kqhs-button-group/kqhs-button-group';
+import KQHSFooter from './components/kqhs-footer/kqhs-footer';
 
 
 
@@ -17,7 +18,10 @@ class App extends React.Component {
   render () {
     return (
       <React.Fragment>
-        <Router>
+        <Router onUpdate={() => {
+          debugger;
+          window.scrollTo(0, 0)
+        }}>
           {/* nav bar */}
           <Navigation/>
 
@@ -40,6 +44,7 @@ class App extends React.Component {
               />
             </div>
           </Container>
+          <KQHSFooter/>
           <BottomNavBar/>
         </Router>
       </React.Fragment>

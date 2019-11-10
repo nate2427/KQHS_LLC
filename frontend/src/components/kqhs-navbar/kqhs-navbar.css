@@ -6,8 +6,12 @@
     font-size: 22px;
 }
 
-.kqhsNavEle:hover {
-    color: white;
+.kqhs-nav-link {
+    color: #D8D36B;
+}
+
+.kqhs-nav-link:hover {
+    color: #c0c0c0;
     text-decoration: underline;
 }
 
@@ -16,11 +20,14 @@
     color: #D8D36B;
 }
 
-.navbar-light .navbar-nav .nav-link:hover,
-.dropdown-item:hover {
-    color: white;
-}
-
 .kqhs-navbar-cmp {
     border-bottom: 2px solid #D8D36B;
+}
+
+.mr-auto.navbar-nav {
+    width: 30%;
+}
+
+.navbar-expand .navbar-nav {
+    justify-content: space-evenly;
 }

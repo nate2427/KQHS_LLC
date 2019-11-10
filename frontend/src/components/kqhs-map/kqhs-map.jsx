@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { GoogleMap, Marker, withGoogleMap, withScriptjs, Polygon } from "react-google-maps"
+import { GoogleMap, withGoogleMap, withScriptjs, Polygon } from "react-google-maps"
 
 
 
@@ -38,10 +38,6 @@ const coords = [
     { lat: 43.007949, lng: -85.730388 },
     { lat: 43.000205, lng: -85.672863 },
 ];
-
-const reversedCoords = coords.map( ll => {
-    return { lat: ll.lng, lng: ll.lat }
-});
 
 
 export default class KQHSMap extends React.Component {

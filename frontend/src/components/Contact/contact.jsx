@@ -2,7 +2,7 @@ import React from 'react';
 import {withRouter} from 'react-router';
 
 
-
+import './contact.css';
 class Contact extends React.Component {
 
 
@@ -11,7 +11,7 @@ class Contact extends React.Component {
 
         return (
             <React.Fragment>
-                <h1 style={ {color: "white"} }>Contact Page</h1>
+                <div className='contactpage'></div>
             </React.Fragment>
         );
     }
