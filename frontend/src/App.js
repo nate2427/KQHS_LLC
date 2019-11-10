@@ -9,6 +9,7 @@ import Contact from './components/Contact/contact';
 import Navigation from './components/Navigation/navigation';
 import KQHSContactSection from './components/kqhs-contact-section/kqhs-contact-section';
 import KQHSMap from './components/kqhs-map/kqhs-map';
+import KQHSButtonGroup from './components/kqhs-button-group/kqhs-button-group';
 
 
 
@@ -34,6 +35,9 @@ class App extends React.Component {
               </Switch>
               <KQHSContactSection/>
               <KQHSMap/>
+              <KQHSButtonGroup
+                buttonNames={['Bugs', 'Bed Bugs', 'Termites', 'Weeds']}
+              />
             </div>
           </Container>
           <BottomNavBar/>

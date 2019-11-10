@@ -53,7 +53,7 @@ export default class KQHSMap extends React.Component {
         return(
             <React.Fragment>
                 <div className="bottom-page-content-map full-width">
-                    <div className="yellow-border full-width got-bats">
+                    <div className="yellow-border got-bats">
                         <h4 className='bats-link'>
                            <Link to='/#'>
                                 <strong>
@@ -74,11 +74,31 @@ export default class KQHSMap extends React.Component {
                             <KQHSGoogleMap 
                                 isMarkerShown 
                                 googleMapURL={`https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places
-                                                &key=`}
+                                                &key=${process.env.REACT_APP_GOOGLE_KEY}`}
                                 loadingElement={<div style={{ height: `100%` }} />}
                                 containerElement={<div style={{ height: `400px` }} />}
                                 mapElement={<div style={{ height: `100%` }} />}
                             />
+                        </div>
+                    </div>
+                    <div className="got-bed-bugs">
+                        <p className='bug-txt'>
+                            KQHS LLC Termite and Pest Control offers safe and effective pest control, 
+                            quality and sanitation solutions throughout West Michigan – Grand Rapids 
+                            area including Byron Center, Caledonia, East Grand Rapids, Grandville, 
+                            and Kentwood, Wyoming.
+                        </p>
+                        <div className='bed-bug-sec'>
+                            <h3 className='flexing h3-contain'>
+                                <Link to='/#' className='red-color'>
+                                    GOT BED BUGS?
+                                </Link>
+                            </h3>
+                            <h6 className='flexing h6-contain'>
+                                <Link to='/#' className='red-color'>
+                                    CLICK FOR INFO ABOUT BED BUG REMOVAL SERVICES
+                                </Link>
+                            </h6>
                         </div>
                     </div>
                 </div>
@@ -90,11 +110,11 @@ export default class KQHSMap extends React.Component {
 
 const KQHSGoogleMap = withScriptjs(withGoogleMap((props) =>
     <GoogleMap
-        defaultZoom={9}
-        defaultCenter={{ lat: 42.863360, lng: -85 }}
+        defaultZoom={11}
+        defaultCenter={{ lat: 42.963360, lng: -85.7 }}
     >
         <Polygon
-            path={reversedCoords}
+            path={coords}
             options={{
                 fillColor: "#8A191B",
                 fillOpacity: 0.4,

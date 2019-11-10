@@ -1,0 +1,38 @@
+.bottom-page-content-buttons {
+    margin-bottom: 70px;
+    margin-top: 60px;
+}
+
+.button-wrapper {
+    margin-right: 4%;
+    width: 100%;
+    text-align: center;
+    width: 22%
+}
+
+.button-wrapper a:hover {
+    border-color: #D8D36B;
+}
+
+.button-wrapper:last-child {
+    margin-right: unset;
+}
+
+.button-wrapper a{
+    margin-bottom: 0;
+    text-shadow: none;
+    text-transform: uppercase;
+    background-color: transparent;
+    box-shadow: none;
+    padding: 0.714em 1.286em 0.857em;
+    font-size: 21px;
+    font-weight: bold;
+    width: 100%;
+    border: 3px solid #8A191B;
+    border-radius: 0.25em;
+}
+
+.button-wrapper a:hover {
+    text-decoration: unset;
+    color: #D8D36B;;
+}
