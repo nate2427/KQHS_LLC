@@ -1,15 +1,15 @@
 
-import dirtyWall from "./static/image/dirtywall.jpg";
-import roaches from "./static/image/roaches1.jpg";
-import roachChart from "./static/image/roachchart.JPG";
-import bagOfBunnies from "./static/image/bunniestonbags1.jpg";
-import bunnyHole from "./static/image/bunnyhole1.JPG";
-import possum from "./static/image/possuminthetree.jpg";
-import mosquito from "./static/image/mosquito1.jpg";
-import spider1 from "./static/image/spider1.jpg";
-import spider2 from "./static/image/spider2.jpg";
-import bee from "./static/image/bee1.jpg";
-import beeHive from "./static/image/beehive1.jpg";
+import dirtyWall from "./static/images/dirtywall.JPG";
+import roaches from "./static/images/roaches1.jpg";
+import roachChart from "./static/images/roachchart.JPG";
+import bagOfBunnies from "./static/images/bunniestonbags1.jpg";
+import bunnyHole from "./static/images/bunnyhole1.JPG";
+import possum from "./static/images/possuminthetree.jpg";
+import mosquito from "./static/images/mosquito1.jpg";
+import spider1 from "./static/images/spider1.jpg";
+import spider2 from "./static/images/spider2.jpg";
+import bee from "./static/images/bee1.jpg";
+import beeHive from "./static/images/beehive1.jpg";
 
 
 
@@ -18,16 +18,14 @@ export const data = {
 }
 
 export const servicesData = {
-    phone: "",
-    subTitle: "",
-    services: [
-        {
+    phone: "616-427-0752",
+    subTitle: "We service all of the city of Grand Rapids and surrounding areas, all construction from Residential, Commercial, Industrial, Multi-Residential and Multi-family home customers.",
+    services: {
+        termites: {
             title: "Termites be gone!",
             mainImageUrl: dirtyWall,
-            bodyText: `Termites are small insect that live in large colonies typically within a mud mound. Many feed on wood and can be highly destructive to wooden structures and trees:
-            
-            
-            Termites cause millions of dollars in structural damages each year all over the United States, although Michigan has an annual winter season – this does not exempt property owners from termite invasion. Call today for a free quote on a guaranteed termite treatment in Grand Rapids and any of the surrounding areas. Allow KQHS LLC Termite and Pest Control to provide you with around the helm termite protection.`,
+            bodyTextTitle: `Termites are small insect that live in large colonies typically within a mud mound. Many feed on wood and can be highly destructive to wooden structures and trees:`,
+            bodyText: `Termites cause millions of dollars in structural damages each year all over the United States, although Michigan has an annual winter season – this does not exempt property owners from termite invasion. Call today for a free quote on a guaranteed termite treatment in Grand Rapids and any of the surrounding areas. Allow KQHS LLC Termite and Pest Control to provide you with around the helm termite protection.`,
             categories: [ 
                 "Comprehensive Termite Inspection",
                 "Comprehensive Wood destroying organism Inspection",
@@ -40,7 +38,7 @@ export const servicesData = {
 
             ]
         },
-        {
+        bedbug: {
             title: "Those Cozy Bed Bugs!",
             mainImageUrl: roaches,
             bodyText: `Bed bugs are a bloodsucking parasite of birds and mammals:
@@ -56,7 +54,7 @@ export const servicesData = {
                 roachChart
             ]
         },
-        {
+        qualityprograms: {
             title: "Insect and Vertebrae Animal Control & Exclusion",
             mainImageUrl: bagOfBunnies,
             bodyText: `A pest is a nuisance or unwanted organism (animal/insect) which may cause damage to a human occupied dwelling:
@@ -83,7 +81,7 @@ export const servicesData = {
                 bunnyHole, possum
             ]
         },
-        {
+        pestcontrol: {
             title: 'Pest Control, Quality and Sanitation Consulting Detail',
             mainImageUrl: mosquito,
             bodyText: `Quality to provide a product and/or service that meets and/or exceeds costumer expectations:
@@ -107,6 +105,6 @@ export const servicesData = {
                 beeHive
             ]
         }
-    ]
+    }
 }
 

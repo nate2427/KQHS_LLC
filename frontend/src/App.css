@@ -24,6 +24,14 @@ body {
   background-color: #8A191B;
 }
 
+.yellow-color {
+  color: #D8D36B;
+}
+
+.grey-color {
+  color: #C0C0C0;
+}
+
 .flexing-around {
   position: relative;
   display: flex;

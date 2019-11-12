@@ -31,3 +31,20 @@
 .navbar-expand .navbar-nav {
     justify-content: space-evenly;
 }
+.dropdown.nav-item .dropdown-menu.black-background {
+    background-color: black;
+    top: 22px;
+    right: 50px;
+    transition-timing-function: linear;
+    transition: display 2s
+}
+
+.kqhs-nav-item:hover {
+    color: #8A191B;
+    text-decoration: unset;
+}
+
+.dropdown-menu {
+    left: -25px;
+    text-align: center;
+}

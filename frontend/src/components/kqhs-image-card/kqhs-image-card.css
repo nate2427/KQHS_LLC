@@ -8,8 +8,14 @@
 
 .flex-container.reversed {
     flex-direction: row-reverse;
+    border: 3px solid #C0C0C0;
+    padding: 30px;
 }
 
+.not-reversed {
+    border: 3px solid #8A191B;
+    padding: 30px;
+}
 
 .kqhs-image-card-comp {
     position: relative;
@@ -50,3 +56,5 @@ img.kqhs-img-in-card {
     width: 48%;
     padding: 2% 0px 0px;
 }
+
+

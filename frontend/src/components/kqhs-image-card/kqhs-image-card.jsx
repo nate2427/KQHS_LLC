@@ -5,18 +5,19 @@ import KQHSInfoCard from '../kqhs-info-card/kqhs-info-card';
 
 class KQHSImageCard extends React.Component {
 
-    
+          
     render = () => {
         return (
             <React.Fragment>
-                <div className={"flex-container " + (this.props.reversed ? 'reversed' : '')}>
+                <div className={"flex-container " + (this.props.reversed ? 'reversed' : 'not-reversed')}>
                     <div className="kqhs-info-card-comp">
                         <div className="kqhs-image-card-comp-wrapper">
                             <KQHSInfoCard
                                 buttonTxt={this.props.buttonTxt}
                                 description={this.props.description}
                                 serviceType={this.props.serviceType}
-                            className='info-card'/>
+                                className='info-card'
+                            />
                         </div>
                     </div>
                     <div className="kqhs-image-comp">
