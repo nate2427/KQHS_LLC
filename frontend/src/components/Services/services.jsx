@@ -21,7 +21,7 @@ class Services extends React.Component {
                     <ServiceTitleComp
                         title={content.title}
                         phone={servicesData.phone}
-                        subtitle={content.subtitle}
+                        subtitle={servicesData.subTitle}
                     />
                     <div className="service-hero flexing">
                         <Image  src={content.mainImageUrl} fluid />
@@ -88,7 +88,7 @@ function ServiceTable(props) {
                         props.categories.map((category) => {
                             return(
                                 <tr>
-                                    <td className='grey-color'>{category}</td>
+                                    <td className='grey-color category-name'>{category}</td>
                                 </tr>
                             )}
                         )

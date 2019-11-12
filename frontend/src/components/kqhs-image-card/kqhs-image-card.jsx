@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Image from 'react-bootstrap/Image';
+
 import './kqhs-image-card.css';
 import KQHSInfoCard from '../kqhs-info-card/kqhs-info-card';
 
@@ -22,7 +24,7 @@ class KQHSImageCard extends React.Component {
                     </div>
                     <div className="kqhs-image-comp">
                         <Link to='/#' className='img-link'>
-                            <img src={this.props.img} className='kqhs-img-in-card' alt='pic of pest'/>
+                            <Image  src={this.props.img} className='kqhs-img-in-card' alt='pic of pest' fluid />
                         </Link>
                     </div>
                 </div>

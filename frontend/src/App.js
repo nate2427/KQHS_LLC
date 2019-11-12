@@ -11,6 +11,7 @@ import KQHSContactSection from './components/kqhs-contact-section/kqhs-contact-s
 import KQHSMap from './components/kqhs-map/kqhs-map';
 import KQHSButtonGroup from './components/kqhs-button-group/kqhs-button-group';
 import KQHSFooter from './components/kqhs-footer/kqhs-footer';
+import About from './components/About/about';
 
 
 
@@ -36,8 +37,9 @@ class App extends React.Component {
                 <Route path="/" exact component={Home} />
                 <Route path="/services/:serviceId" component={Services} />
                 <Route path="/contact" component={Contact} />
-                <Route path="/about" component={Contact} />
+                <Route path="/about" component={About} />
               </Switch>
+
               <KQHSContactSection/>
               <KQHSMap/>
               <KQHSButtonGroup
