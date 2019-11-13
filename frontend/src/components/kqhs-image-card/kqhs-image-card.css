@@ -43,10 +43,6 @@ img.kqhs-img-in-card {
     display: block;
     border-radius: 6px;
     max-width: 100%;
-    flex-shrink: 0;
-    min-width: 100%;
-    min-height: 100%;
-    vertical-align: middle;
 }
 
 .kqhs-info-card-comp-wrapper {

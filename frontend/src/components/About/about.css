@@ -1,0 +1,32 @@
+.about-hero-cntr {
+    border-bottom: 5px solid #D8D36B;
+}
+
+.about-hero-img-banner {
+    max-height: 27rem;
+    width: 100%;
+}
+
+.about-img-card {
+    justify-content: space-evenly;
+}
+
+.half {
+    width: 48%;
+}
+
+.lft-cnt .table tbody td {
+    border-top: unset;
+}
+
+.table thead th.kqhs-about-th {
+    border-bottom: unset;
+}
+
+.about-hdr-rw {
+    justify-content: flex-start;
+}
+
+.about-rw-info {
+    justify-content: start;
+}
