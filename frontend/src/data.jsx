@@ -14,7 +14,7 @@ import beeHive from "./static/images/beehive1.jpg";
 
 
 export const aboutData = {
-    phone: "1-616-427-0752",
+    phone: "(616)-427-0752",
     email: "kqhsllc@gmail.com",
     addr: "4513 Potter Ave\nGrand Rapids, MI",
     certs: "Operations Supervisor, Quality Supervisor, Pest Control officer(7A, 7D) and Quality Analyst."

@@ -23,7 +23,7 @@ class BottomNavBar extends React.Component {
                         />
                         <BottomNavBarTile
                             icon={faEnvelope}
-                            href="mailto:kqhsllc@gmail.com?Subject=Hello%20again" 
+                            href="mailto:kqhsllc@gmail.com?Subject=Interested%20Client" 
                         />
                         <BottomNavBarTile
                             icon={faMapMarkerAlt}
