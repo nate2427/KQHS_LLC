@@ -43,7 +43,12 @@ class App extends React.Component {
               <KQHSContactSection/>
               <KQHSMap/>
               <KQHSButtonGroup
-                buttonNames={['Bugs', 'Bed Bugs', 'Termites', 'Weeds']}
+                buttonObjects={[
+                  {name:'Bugs', link:'/pestcontrol'}, 
+                  {name:'Bed Bugs', link:'/bedbug'},
+                  {name: 'Termites', link: '/termites'},
+                  {name: 'Weeds', link:'/qualityprograms'}
+                ]}
               />
             </div>
           </Container>

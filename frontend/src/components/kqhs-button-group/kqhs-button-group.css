@@ -7,7 +7,6 @@
     margin-right: 4%;
     width: 100%;
     text-align: center;
-    width: 22%
 }
 
 .button-wrapper a:hover {
@@ -24,8 +23,8 @@
     text-transform: uppercase;
     background-color: transparent;
     box-shadow: none;
-    padding: 0.714em 1.286em 0.857em;
-    font-size: 21px;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
     font-weight: bold;
     width: 100%;
     border: 3px solid #8A191B;
@@ -36,3 +35,41 @@
     text-decoration: unset;
     color: #D8D36B;;
 }
+
+/* @media only screen and (max-width: 600px) {
+    .bottom-page-content-buttons {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .button-wrapper a{
+        margin: 2rem;
+    }
+
+} */
+
+@media only screen and (max-width: 992px) {
+    .bottom-page-content-buttons {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .button-wrapper{
+        margin: 2rem;
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+
+    .button-wrapper a{
+        font-size: 2rem;
+        text-align: center;
+        width: 80%;
+    }
+}
+
+

@@ -12,11 +12,11 @@ class KQHSButtonGroup extends React.Component {
             <React.Fragment>
                 <div className="bottom-page-content-buttons full-width flexing-around">
                     {
-                        this.props.buttonNames.map((name) => {
+                        this.props.buttonObjects.map((butObj) => {
                             return(
                                 <div className='button-wrapper'>
-                                    <Link to='/#' className='red-color'>
-                                        {name}
+                                    <Link onClick={() => window.scrollTo(0, 0)} to={'/services'+butObj.link} className='red-color'>
+                                        {butObj.name}
                                     </Link>
                                 </div>
                             );
