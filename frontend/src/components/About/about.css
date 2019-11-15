@@ -30,3 +30,8 @@
 .about-rw-info {
     justify-content: start;
 }
+
+.table .half td {
+    border-bottom: unset;
+    text-align: start;
+}

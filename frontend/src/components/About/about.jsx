@@ -1,13 +1,17 @@
 import React, { Component, Fragment } from 'react'
 import Image from 'react-bootstrap/Image';
 import Table from 'react-bootstrap/Table';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faMobileAlt, faEnvelope, faMapMarkerAlt, faAngleDoubleDown } from '@fortawesome/free-solid-svg-icons'
 
 
 import bizCard from "../../static/images/KQHSBusinessCard/KQHSBusinessCard.jpg";
-
+import { aboutData as data } from "../../data";
 
 
 import './about.css';
+
+
 
 export default class About extends Component {
     render() {
@@ -44,10 +48,34 @@ function AboutMetaData(props) {
                 <tbody>
                     <tr className='flexing about-rw-info'>
                         <div className="half rw-lft">
-                            <td className='grey-color'>{"category"}</td>
+                            <td className='grey-color kqhs-addy'><FontAwesomeIcon icon={faMapMarkerAlt}/>{" Address:"}</td>
                         </div>
                         <div className="half rw-rht">
-                            <td className='grey-color'>{"category"}</td>
+                            <td className='grey-color'>{data.addr}</td>
+                        </div>
+                    </tr>
+                    <tr className='flexing about-rw-info'>
+                        <div className="half rw-lft">
+                             <td className='grey-color kqhs-addy'><FontAwesomeIcon icon={faEnvelope}/>{" Email:"}</td>
+                        </div>
+                        <div className="half rw-rht">
+                            <td className='grey-color'>{data.email}</td>
+                        </div>
+                    </tr>
+                    <tr className='flexing about-rw-info'>
+                        <div className="half rw-lft">
+                            <td className='grey-color kqhs-addy'><FontAwesomeIcon icon={faMobileAlt}/> {" Phone:"}</td>
+                        </div>
+                        <div className="half rw-rht">
+                            <td className='grey-color'>{data.phone}</td>
+                        </div>
+                    </tr>
+                    <tr className='flexing about-rw-info'>
+                        <div className="half rw-lft">
+                            <td className='grey-color kqhs-addy'><FontAwesomeIcon icon={faAngleDoubleDown}/>  {" Certification:"}</td>
+                        </div>
+                        <div className="half rw-rht">
+                            <td className='grey-color'>{data.certs}</td>
                         </div>
                     </tr>
                 </tbody>
