@@ -43,7 +43,11 @@ function ServiceTitleComp(props) {
         <div className="title-comp-wrpr flexing">
             <div className='service-title-comp'>
                 <h1 className='service-title yellow-color'>{props.title}</h1>
-                <h3 className='grey-color service-phone'>{props.phone}</h3>
+                <h3 className='grey-color service-phone'>
+                    <a className='ref' href={'tel:'+props.phone}>
+                        {props.phone}
+                    </a>
+                </h3>
                 <p className='service-subtitle grey-color'>
                     {props.subtitle}
                 </p>

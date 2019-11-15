@@ -2,7 +2,7 @@ import React, { Component, Fragment } from 'react'
 import Image from 'react-bootstrap/Image';
 import Table from 'react-bootstrap/Table';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faMobileAlt, faEnvelope, faMapMarkerAlt, faAngleDoubleDown } from '@fortawesome/free-solid-svg-icons'
+import { faMobileAlt, faEnvelope, faMapMarkerAlt, faCertificate } from '@fortawesome/free-solid-svg-icons'
 
 
 import bizCard from "../../static/images/KQHSBusinessCard/KQHSBusinessCard.jpg";
@@ -81,7 +81,7 @@ function AboutMetaData(props) {
                     </tr>
                     <tr className='flexing about-rw-info'>
                         <div className="half rw-lft">
-                            <td className=' kqhs-about-icon'><FontAwesomeIcon icon={faAngleDoubleDown}/>  {" Certification:"}</td>
+                            <td className=' kqhs-about-icon'><FontAwesomeIcon icon={faCertificate}/>  {" Certifications:"}</td>
                         </div>
                         <div className="half rw-rht">
                             <td className='kqhs-about-val'>{metaData.certs}</td>

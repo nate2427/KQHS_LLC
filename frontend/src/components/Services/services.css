@@ -140,3 +140,9 @@
     cursor: pointer;
     color: #D8D36B;
 }
+
+.ref,
+.ref:hover {
+    color: unset;
+    text-decoration: unset;
+}

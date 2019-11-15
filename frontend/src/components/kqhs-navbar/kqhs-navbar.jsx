@@ -4,6 +4,7 @@ import  Nav  from "react-bootstrap/Nav";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAngleDoubleDown } from '@fortawesome/free-solid-svg-icons'
+import { faBars } from '@fortawesome/free-solid-svg-icons'
 
 import './kqhs-navbar.css';
 
@@ -13,10 +14,12 @@ class KQHSNavbar extends React.Component {
         super(props)
         this.state = {
             dropdownShowing: false,
+            navShowing: false
         }
         this.refresh = this.refresh.bind(this);
         this.showDropdown = this.showDropdown.bind(this);
         this.rmDropDown = this.rmDropDown.bind(this);
+        this.handleStackedBarsOnClick = this.handleStackedBarsOnClick.bind(this);
     }
     
     refresh(e) {
@@ -31,10 +34,19 @@ class KQHSNavbar extends React.Component {
         this.setState({dropdownShowing: false});
     }
 
+    handleStackedBarsOnClick(e) {
+        this.state.navShowing ? this.setState({navShowing: false}) : this.setState({navShowing: true});
+    }
+
+
+
 	render() {
 		return (
             <div className="kqhs-navbar-cmp">
-                <Navbar className='kqhsNavEle'>
+                <div className="nav-icon flexing" onClick={this.handleStackedBarsOnClick}>
+                    <FontAwesomeIcon className='kqhs-hamburger-menu' icon={faBars}/> 
+                </div>
+                <Navbar className={'kqhsNavEle ' + (this.state.navShowing ? 'show-nav' : '')}>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="mr-auto">
