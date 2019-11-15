@@ -13,11 +13,42 @@ import beeHive from "./static/images/beehive1.jpg";
 
 
 
-export const aboutData = {
+export const aboutMetaData = {
     phone: "(616)-427-0752",
     email: "kqhsllc@gmail.com",
     addr: "4513 Potter Ave\nGrand Rapids, MI",
     certs: "Operations Supervisor, Quality Supervisor, Pest Control officer(7A, 7D) and Quality Analyst."
+
+}
+
+export const aboutData = {
+    intro: `
+        Please allow me to introduce myself. My name is Jimmie Kilgore Jr. owner and operator
+        of KQHS LLC (Kaptain Quality Home Solutions) with a DBA of KQHS LLC Termite and
+        Pest Control. We are a small locally owned termite and pest control company. KQHS
+        utilizes both eco-friendly and homeostatic materials to maintain a balanced and healthy
+        environment. With emphasis on the underserved population and small businesses
+        throughout the greater Grand Rapids area and surrounding communities, KQHS pest
+        control services not only benefits individual clients but also benefits the community and
+        environment as a whole.
+    `,
+    exp1: `
+        With extensive training in all areas of pest control, combined with over 10 years
+        of practical residential and commercial buildings experience base in pest control and
+        environmental management from my 13 plus years at,
+    `,
+    compLoco: `
+        Kellogg Snacks
+        3300 & 3750 Roger B. Chaffee 
+        Wyoming, MI 49548
+    `,
+    exp2: `
+        facilities with roles ranging from current Operations Supervisor, Quality Supervisor, Pest Control officer(7A, 7D) and Quality Analyst.  My pest control work consist of exclusion work corrective and preventative action plans, facility space spraying, small animal removal, crack and crevice, sanitation etc.
+    `,
+    flwUp: `
+        Also, as the holder of SQF (Safe Quality Food), PCQI (Preventive Controls Qualified Individual) and HACCP (Hazzard Analysis Critical Control Points) certifications under the FSMA (Food Safety Modernization Act) I am qualified to recognize food and environmental pest safety risk and establish preventative and corrective action for pest infestation control services.
+    `,
+    close: 'Please contact Jimmie at '
 
 }
 
