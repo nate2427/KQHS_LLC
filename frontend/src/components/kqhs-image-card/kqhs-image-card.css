@@ -56,8 +56,9 @@ img.kqhs-img-in-card {
     display: block;
     border-radius: 6px;
     max-width: 100%;
-    max-height: 400px;
+    height: 100%;
     padding-right: 32px;
+    object-fit: contain;
 }
 
 .not-reversed .kqhs-image-comp {
