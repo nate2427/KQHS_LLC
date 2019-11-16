@@ -6,6 +6,8 @@
     align-items: center;
     flex-direction: column;
     padding: 0 20px;
+    justify-content: center;
+
 }
 
 .kqhs-h2-bg {
