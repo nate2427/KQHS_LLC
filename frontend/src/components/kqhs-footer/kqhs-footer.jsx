@@ -21,9 +21,6 @@ class KQHSFooter extends React.Component {
                         <Col md={12}>
                             <div className="kqhs-footer-wrpr flexing">
                                 <h3 className='kqhs-title-l1'>
-                                    {/* <Link to='/#'>
-                                        KQHS
-                                    </Link> */}
                                     <KQHSTitle/>
                                 </h3>
                                 <br/>

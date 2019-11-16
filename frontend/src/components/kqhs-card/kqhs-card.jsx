@@ -1,36 +1,40 @@
 import React from "react";
 import KQHSImageCard from '../kqhs-image-card/kqhs-image-card';
 import termiteImg from "../../static/images/dirtywall.JPG";
-import roachImg from "../../static/images/roaches1.jpg";
+import bedBugs from "../../static/images/roachchart.JPG";
 import possumImg from "../../static/images/possuminthetree.jpg";
-import bunnyHoleImg from "../../static/images/bunnyhole1.JPG";
+import mosquito from "../../static/images/mosquito1.jpg";
 
 
 const content = {
     imageCards: [
         {
-            serviceType: "Termite Detail",
-            description: "",
+            serviceType: "Termites",
+            description: "Termites are small insect that live in large colonies typically within a mud mound. Many feed on wood and can be highly destructive to wooden structures and trees",
             buttonTxt: "Free Bed Bug Treatment Quote",
-            imgUrl: termiteImg
+            imgUrl: termiteImg,
+            url: 'termites'
         },
         {
-            serviceType: "Bed Bug Detail",
-            description: "",
+            serviceType: "Bed Bugs",
+            description: "Bed bugs are a bloodsucking parasite of birds and mammals",
             buttonTxt: "Free Bed Bug Removal Quote",
-            imgUrl: roachImg
+            imgUrl: bedBugs,
+            url:'bedbug'
         },
         {
             serviceType: "Insect and Vertebrae Animal Control/Exclusion",
-            description: "",
+            description: "A pest is a nuisance or unwanted organism (animal/insect) which may cause damage to a human occupied dwelling",
             buttonTxt: "Free Insect Control Quote",
-            imgUrl: bunnyHoleImg
+            imgUrl: possumImg,
+            url:'pestcontrol'
         },
         {
             serviceType: "Pest Control, Quality and Sanitation Consulting Detail",
-            description: "",
+            description: "Quality to provide a product and/or service that meets and/or exceeds costumer expectations",
             buttonTxt: "Click For Consulting",
-            imgUrl: possumImg
+            imgUrl: mosquito,
+            url:'qualityprograms'
         }
     ]
 }
@@ -50,7 +54,8 @@ class KQHSCard extends React.Component {
                             img={element.imgUrl}
                             serviceType={element.serviceType}
                             buttonTxt={element.buttonTxt}
-                            description={content.imageCards[0].description}
+                            description={element.description}
+                            url={element.url}
                             reversed={i % 2 === 0 ? true : false}
                         />
                     })

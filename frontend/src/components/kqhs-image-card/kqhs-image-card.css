@@ -56,7 +56,6 @@ img.kqhs-img-in-card {
     display: block;
     border-radius: 6px;
     max-width: 100%;
-    height: 100%;
     padding-right: 32px;
     object-fit: contain;
 }

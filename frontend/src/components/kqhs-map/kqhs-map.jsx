@@ -87,12 +87,12 @@ export default class KQHSMap extends React.Component {
                         <div className='bed-bug-sec'>
                             <h3 className='flexing h3-contain'>
                                 <Link to='/#' className='red-color'>
-                                    GOT BED BUGS?
+                                    GOT MICE?
                                 </Link>
                             </h3>
                             <h6 className='flexing h6-contain'>
                                 <Link to='/#' className='red-color'>
-                                    CLICK FOR INFO ABOUT BED BUG REMOVAL SERVICES
+                                    CLICK FOR INFO ABOUT MICE IN YOUR HOME
                                 </Link>
                             </h6>
                         </div>

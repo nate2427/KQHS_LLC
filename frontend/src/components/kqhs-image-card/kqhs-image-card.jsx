@@ -18,6 +18,7 @@ class KQHSImageCard extends React.Component {
                                 buttonTxt={this.props.buttonTxt}
                                 description={this.props.description}
                                 serviceType={this.props.serviceType}
+                                url={this.props.url}
                                 className='info-card'
                             />
                         </div>

@@ -13,8 +13,8 @@ class KQHSInfoCard extends React.Component {
         return (
             <React.Fragment>
                 <div className="kqhs-info-card-comp">
-                    <h1 className='kqhs-h2-bg'>
-                        <Link to='/#'>
+                    <h1 onClick={() => window.scrollTo(0,0)} className='kqhs-h2-bg'>
+                        <Link to={'/services/'+ this.props.url}>
                             <u>
                                 {this.props.serviceType}
                             </u>
@@ -22,10 +22,10 @@ class KQHSInfoCard extends React.Component {
                     </h1>
                     <p className='kqhs-card-info-desc'>
                         <strong>
-                        the United States, although Michigan has an annual winter season – this does not exempt property owners from termite invasion. Call today for a free quote on a guaranteed termite treatment in Grand Rapids and any of the surrounding
+                            {this.props.description}
                         </strong>
                     </p>
-                    <Link to='/#' className='kqhs-info-card-button'>
+                    <Link onClick={() => window.scrollTo(0,0)} to={'/services/'+ this.props.url} className='kqhs-info-card-button'>
                         {this.props.buttonTxt}
                     </Link>
                 </div>

@@ -76,12 +76,9 @@ export const servicesData = {
         bedbug: {
             title: "Those Cozy Bed Bugs!",
             mainImageUrl: roaches,
-            bodyText: `Bed bugs are a bloodsucking parasite of birds and mammals:
-
-
-            After feeding, bed bugs move to secluded places and hide for roughly 5-10 days. During this time, they do not feed but instead digest their meal, mate and lay eggs.
-            
-            They can then lay dormant without feeding from 6 months up to a year. If plagued by a bed bug infestation, do not go at it alone; instead call KQHS LLC Termite and Pest Control. Allow our licensed pest professionals who are knowledgeable in the habits and life cycle of bed bugs, to identify and recommend an effective course of treatment.`,
+            bodyTextTitle: `Bed bugs are a bloodsucking parasite of birds and mammals:`,
+            bodyText: `After feeding, bed bugs move to secluded places and hide for roughly 5-10 days. During this time, they do not feed but instead digest their meal, mate and lay eggs.
+                        They can then lay dormant without feeding from 6 months up to a year. If plagued by a bed bug infestation, do not go at it alone; instead call KQHS LLC Termite and Pest Control. Allow our licensed pest professionals who are knowledgeable in the habits and life cycle of bed bugs, to identify and recommend an effective course of treatment.`,
             categories: [ 
                 "Bed Bug Treatment Control Plan"
             ],
@@ -92,10 +89,8 @@ export const servicesData = {
         qualityprograms: {
             title: "Insect and Vertebrae Animal Control & Exclusion",
             mainImageUrl: bagOfBunnies,
-            bodyText: `A pest is a nuisance or unwanted organism (animal/insect) which may cause damage to a human occupied dwelling:
-
-
-            Believe it or not, all animal and insect life have an essential part to play in what we at KQHS LLC call the “Big Circle”. As the human population has grown and expanded into new frontiers, we often neglect the thought that life was present all around our now occupied areas. Due to this occupation, animal and insect life are often disrupted and or ousted from its original habitat. We must be ever vigilante to maintain our facilities structure, access points and waste, in order for our circle companions to find other suitable homes.  `,
+            bodyTextTitle: `A pest is a nuisance or unwanted organism (animal/insect) which may cause damage to a human occupied dwelling:`,
+            bodyText: `Believe it or not, all animal and insect life have an essential part to play in what we at KQHS LLC call the “Big Circle”. As the human population has grown and expanded into new frontiers, we often neglect the thought that life was present all around our now occupied areas. Due to this occupation, animal and insect life are often disrupted and or ousted from its original habitat. We must be ever vigilante to maintain our facilities structure, access points and waste, in order for our circle companions to find other suitable homes.  `,
             categories: [ 
                 "Ant Control",
                 "Bee & Wasp Control",
@@ -119,13 +114,9 @@ export const servicesData = {
         pestcontrol: {
             title: 'Pest Control, Quality and Sanitation Consulting Detail',
             mainImageUrl: mosquito,
-            bodyText: `Quality to provide a product and/or service that meets and/or exceeds costumer expectations:
-
-
-            Most establishments have great fundamental practices in place, which they may desire to go to the next level with new developing governmental requirements – whether needing a temporary clean out or documented mitigation. That starts with written implementation and verification of 
-            
-            
-            practices, allow KQHS LLC to guide you to a proven and healthier facility environment.`,
+            bodyTextTitle: `Quality to provide a product and/or service that meets and/or exceeds costumer expectations:`,
+            bodyText: `Most establishments have great fundamental practices in place, which they may desire to go to the next level with new developing governmental requirements – whether needing a temporary clean out or documented mitigation. That starts with written implementation and verification of 
+                        practices, allow KQHS LLC to guide you to a proven and healthier facility environment.`,
             categories: [ 
                 "Drain Management services cleaning and maintenance",
                 "IPM Program implementation and Maintenance",

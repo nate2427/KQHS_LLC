@@ -11,10 +11,10 @@ class KQHSTitle extends React.Component {
                     <div className="kqhs-title-wrpr">
                          <div className="box">
                             <div className="inner">
-                                <span className='kqhs-title-txt'>KQHS</span>
+                                <span className='kqhs-title-txt'>KQHS, LLC</span>
                             </div>
                             <div className="inner">
-                                <span className='kqhs-title-txt'>KQHS</span>
+                                <span className='kqhs-title-txt'>KQHS, LLC</span>
                             </div>
                         </div>
                     </div>

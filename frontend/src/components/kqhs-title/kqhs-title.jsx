@@ -3,7 +3,7 @@ import  React  from "react";
 import './kqhs-title.css';
 
 const content = {
-    title: "BED BUGS, TERMITES Bugs, Termites, Quality and Sanitation - Is our life.",
+    title: "BED BUGS, Termites, Quality and Sanitation - Is our life.",
     altSubTitleText: "Allow the Kaptain to provide you around the helm protection.",
     phone: "(616) 427-0752",
 
