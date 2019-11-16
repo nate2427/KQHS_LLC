@@ -4,6 +4,7 @@
     justify-content: space-between;
     margin: 20px 30px;
     margin: 50px 45px;
+    width: 75%;
 }
 
 .flex-container.reversed {
@@ -15,6 +16,18 @@
 .not-reversed {
     border: 3px solid #8A191B;
     padding: 30px;
+}
+
+.not-reversed,
+.flex-container.reversed {
+    background-color: rgba(0,0,0,0.6);
+}
+
+.not-reversed:hover,
+.flex-container.reversed:hover {
+    width: 77%;
+    box-shadow: 7px 4px 8px 0 rgba(214, 201, 17, 0.7), 7px 6px 20px 0 rgba(131, 124, 26, 0.7);
+    cursor: pointer;
 }
 
 .kqhs-image-card-comp {
@@ -43,6 +56,14 @@ img.kqhs-img-in-card {
     display: block;
     border-radius: 6px;
     max-width: 100%;
+    max-height: 400px;
+    padding-right: 32px;
+}
+
+.not-reversed .kqhs-image-comp {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .kqhs-info-card-comp-wrapper {
