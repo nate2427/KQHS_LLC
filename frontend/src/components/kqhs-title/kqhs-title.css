@@ -41,3 +41,17 @@ h4.phn-nmbr.txt {
     font-weight: 900;
     text-transform: uppercase;
 }
+
+@media only screen and (max-width: 992px) {  
+    h1.title.txt, h1.sub-title.txt  {
+        letter-spacing: 2px;
+        font-size: 23px;
+        font-family: "Lato",sans-serif;
+        font-style: italic;
+        font-weight: 900;
+        text-transform: uppercase;
+        line-height: 1.1;
+        text-align: center;
+        padding-top: 3rem;
+    }
+}

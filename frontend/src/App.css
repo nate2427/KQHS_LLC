@@ -96,3 +96,14 @@ li a:hover {
 .navbar-collapse.collapse .mr-auto.navbar-nav {
   margin-right: unset!important;
 }
+
+@media only screen and (max-width: 992px) { 
+  .container-fluid.main-cnt  {
+    padding: 0;
+    border: 0;
+  }
+
+  .outer-wrpr {
+    border: 0;
+  }
+}
