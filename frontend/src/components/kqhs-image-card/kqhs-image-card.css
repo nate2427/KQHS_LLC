@@ -40,6 +40,7 @@
 
 .kqhs-image-comp {
     width: 48%;
+    align-items: center;
 }
 
 a.img-link {
@@ -72,6 +73,12 @@ img.kqhs-img-in-card {
     flex-direction: column;
     width: 48%;
     padding: 2% 0px 0px;
+    justify-content: center;
 }
 
 
+.kqhs-image-card-comp-wrapper {
+    position: relative;
+    display: flex;
+    align-content: center;
+}
