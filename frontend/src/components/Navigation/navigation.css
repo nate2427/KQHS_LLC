@@ -47,4 +47,8 @@
     .show-nav {
       display: block;
     }
+
+    .kqhs-sticky {
+      position: relative;
+    }
   }

@@ -106,4 +106,19 @@ li a:hover {
   .outer-wrpr {
     border: 0;
   }
+
+  .flex-container.reversed,
+  .flex-container.not-reversed {
+    flex-direction: column !important;
+    width: 100%;
+    align-items: center;
+  }
+
+  h1.kqhs-h2-bg a u {
+    font-size: 51px;
+  }
+  
+  .kqhs-card-info-desc {
+    font-size: 15px !important;
+  }
 }

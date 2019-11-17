@@ -81,3 +81,15 @@ img.kqhs-img-in-card {
     display: flex;
     align-content: center;
 }
+
+@media only screen and (max-width: 992px) { 
+
+    .kqhs-info-card-comp-wrapper {
+        width: 100%;
+    }
+
+    img.kqhs-img-in-card {
+        padding-right: unset;
+        padding-top: 1rem;
+    }
+}
