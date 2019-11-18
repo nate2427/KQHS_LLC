@@ -66,6 +66,7 @@ export default class KQHSMap extends React.Component {
                         </p>
                     </div>
                     <div className="embbed kqhs-google-map">
+                        {console.log(process.env.REACT_APP_GOOGLE_KEY)}
                         <div style={{ height: '100%', width: '100%', position: 'relative'}}>
                             <KQHSGoogleMap 
                                 isMarkerShown 
