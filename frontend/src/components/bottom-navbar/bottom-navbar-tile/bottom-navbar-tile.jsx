@@ -11,7 +11,7 @@ class BottomNavbarTile extends React.Component {
     {
         return (
             <React.Fragment>
-                <a href={this.props.href}>
+                <a className='btm-btn' href={this.props.href}>
                     <span>
                         <FontAwesomeIcon icon={this.props.icon}/>
                     </span>

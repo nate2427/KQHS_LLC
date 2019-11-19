@@ -121,4 +121,8 @@ li a:hover {
   .kqhs-card-info-desc {
     font-size: 15px !important;
   }
+  
+  .kqhs-nav-items {
+    overflow: unset;
+  }
 }
