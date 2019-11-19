@@ -2,7 +2,6 @@
 import dirtyWall from "./static/images/dirtywall.JPG";
 import bedbugonfab from "./static/images/bed-bug-on-fabric.jpg";
 import termites from "./static/images/termites.jpg"
-import roaches from "./static/images/roaches1.jpg";
 import deadmouse from "./static/images/deadmouse.webp"
 import roachChart from "./static/images/roachchart.JPG";
 import bagOfBunnies from "./static/images/bunniestonbags1.jpg";
