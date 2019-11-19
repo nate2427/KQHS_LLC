@@ -2,7 +2,7 @@
 import dirtyWall from "./static/images/dirtywall.JPG";
 import bedbugonfab from "./static/images/bed-bug-on-fabric.jpg";
 import termites from "./static/images/termites.jpg"
-import deadmouse from "./static/images/deadmouse.webp"
+import mouse from "./static/images/mouse.jpeg"
 import roachChart from "./static/images/roachchart.JPG";
 import bagOfBunnies from "./static/images/bunniestonbags1.jpg";
 import bedbug from "./static/images/bedbug.jpg";
@@ -124,7 +124,7 @@ export const servicesData = {
         pestcontrol: {
             title: 'Pest Control, Quality and Sanitation Consulting Detail',
             mainImageUrl1: mosquito,
-            mainImageUrl2: deadmouse,
+            mainImageUrl2: mouse,
             bodyTextTitle: `Quality to provide a product and/or service that meets and/or exceeds costumer expectations:`,
             bodyText: `Most establishments have great fundamental practices in place, which they may desire to go to the next level with new developing governmental requiements – whether needing a temporary clean out or documented mitigation. That starts with written implementation and verification of 
                         practices, allow KQHS LLC to guide you to a proven and healthier facility environment.`,
