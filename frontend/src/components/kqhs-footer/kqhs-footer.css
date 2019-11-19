@@ -8,6 +8,7 @@
     margin-bottom: 50px;
     background: rgba(0,0,0,0.85);
     border-top: 2px #D8D36B solid;
+    overflow: hidden;
 }
 
 .kqhs-title-l1 {

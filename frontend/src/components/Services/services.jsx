@@ -70,7 +70,7 @@ function ServiceDetails(props) {
                     <br/>
                     {props.bodyText}
                 </p>
-                <div className="service-lst">
+                <div className="service-lst flexing">
                     <ServiceTable
                         categories={props.categories}
                     />
