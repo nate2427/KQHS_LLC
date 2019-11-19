@@ -67,6 +67,7 @@
 
 .about-img-card .right-cnt.half .kqhs-fam-pic{
     max-height: 30em;
+    max-width: 30em;
     border-radius: 0.75%;
 }
 
@@ -121,4 +122,40 @@ td.kqhs-about-val,
 
 .kqhs-about-data {
     padding-top: 2em;
+}
+
+
+@media only screen and (max-width: 992px) { 
+
+    .kqhs-about-title {
+        font-size: 3.1em;
+        letter-spacing: unset;
+    }
+
+    .about-img-card.flexing {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-img-card {
+        width: 100%;
+    }
+
+    
+    .half {
+        width: 100%;
+    }
+
+    .about-hdr-rw {
+        justify-content: center;
+    }
+
+    td.kqhs-about-val,
+    .kqhs-data-text {
+        text-align: center;
+    }
+
+    .about-rw-info {
+        font-size: 0.70em;
+    }
 }

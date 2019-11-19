@@ -27,7 +27,7 @@ export default class About extends Component {
                             <div className="lft-cnt half">
                                 <AboutMetaData />
                             </div>
-                            <div className="right-cnt half">
+                            <div className="right-cnt half flexing">
                                 <Image src={famPic} className='kqhs-fam-pic' alt='Me and Wife' />
                             </div>
                     </div>
