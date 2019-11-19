@@ -23,8 +23,11 @@ class Services extends React.Component {
                         phone={servicesData.phone}
                         subtitle={servicesData.subTitle}
                     />
-                    <div className="service-hero flexing">
-                        <Image  src={content.mainImageUrl} fluid />
+                    <div className="service-hero-wrpr flexing">
+                        <div className="service-hero flexing">
+                            <Image className='pic-1'  src={content.mainImageUrl1} fluid />
+                            <Image  className='pic-2' src={content.mainImageUrl2} fluid />
+                        </div>
                     </div>
                     <ServiceDetails
                         bodyTextTitle={content.bodyTextTitle}
@@ -63,7 +66,7 @@ function ServiceDetails(props) {
                 <p className='service-details yellow-color big-text'>
                     {props.bodyTextTitle}
                 </p>
-                <p className='service-details yellow-color'>
+                <p className='service-details yellow-color body-text'>
                     <br/>
                     {props.bodyText}
                 </p>

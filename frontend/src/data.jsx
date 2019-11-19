@@ -1,8 +1,12 @@
 
 import dirtyWall from "./static/images/dirtywall.JPG";
+import bedbugonfab from "./static/images/bed-bug-on-fabric.jpg";
+import termites from "./static/images/termites.jpg"
 import roaches from "./static/images/roaches1.jpg";
+import deadmouse from "./static/images/deadmouse.webp"
 import roachChart from "./static/images/roachchart.JPG";
 import bagOfBunnies from "./static/images/bunniestonbags1.jpg";
+import bedbug from "./static/images/bedbug.jpg";
 import bunnyHole from "./static/images/bunnyhole1.JPG";
 import possum from "./static/images/possuminthetree.jpg";
 import mosquito from "./static/images/mosquito1.jpg";
@@ -10,6 +14,10 @@ import spider1 from "./static/images/spider1.jpg";
 import spider2 from "./static/images/spider2.jpg";
 import bee from "./static/images/bee1.jpg";
 import beeHive from "./static/images/beehive1.jpg";
+
+
+
+
 
 
 
@@ -58,7 +66,8 @@ export const servicesData = {
     services: {
         termites: {
             title: "Termites be gone!",
-            mainImageUrl: dirtyWall,
+            mainImageUrl1: dirtyWall,
+            mainImageUrl2: termites,
             bodyTextTitle: `Termites are small insect that live in large colonies typically within a mud mound. Many feed on wood and can be highly destructive to wooden structures and trees:`,
             bodyText: `Termites cause millions of dollars in structural damages each year all over the United States, although Michigan has an annual winter season – this does not exempt property owners from termite invasion. Call today for a free quote on a guaranteed termite treatment in Grand Rapids and any of the surrounding areas. Allow KQHS LLC Termite and Pest Control to provide you with around the helm termite protection.`,
             categories: [ 
@@ -75,7 +84,8 @@ export const servicesData = {
         },
         bedbug: {
             title: "Those Cozy Bed Bugs!",
-            mainImageUrl: roaches,
+            mainImageUrl1: bedbug,
+            mainImageUrl2: bedbugonfab,
             bodyTextTitle: `Bed bugs are a bloodsucking parasite of birds and mammals:`,
             bodyText: `After feeding, bed bugs move to secluded places and hide for roughly 5-10 days. During this time, they do not feed but instead digest their meal, mate and lay eggs.
                         They can then lay dormant without feeding from 6 months up to a year. If plagued by a bed bug infestation, do not go at it alone; instead call KQHS LLC Termite and Pest Control. Allow our licensed pest professionals who are knowledgeable in the habits and life cycle of bed bugs, to identify and recommend an effective course of treatment.`,
@@ -88,7 +98,8 @@ export const servicesData = {
         },
         qualityprograms: {
             title: "Insect and Vertebrae Animal Control & Exclusion",
-            mainImageUrl: bagOfBunnies,
+            mainImageUrl1: bagOfBunnies,
+            mainImageUrl2: beeHive,
             bodyTextTitle: `A pest is a nuisance or unwanted organism (animal/insect) which may cause damage to a human occupied dwelling:`,
             bodyText: `Believe it or not, all animal and insect life have an essential part to play in what we at KQHS LLC call the “Big Circle”. As the human population has grown and expanded into new frontiers, we often neglect the thought that life was present all around our now occupied areas. Due to this occupation, animal and insect life are often disrupted and or ousted from its original habitat. We must be ever vigilante to maintain our facilities structure, access points and waste, in order for our circle companions to find other suitable homes.  `,
             categories: [ 
@@ -113,7 +124,8 @@ export const servicesData = {
         },
         pestcontrol: {
             title: 'Pest Control, Quality and Sanitation Consulting Detail',
-            mainImageUrl: mosquito,
+            mainImageUrl1: mosquito,
+            mainImageUrl2: deadmouse,
             bodyTextTitle: `Quality to provide a product and/or service that meets and/or exceeds costumer expectations:`,
             bodyText: `Most establishments have great fundamental practices in place, which they may desire to go to the next level with new developing governmental requiements – whether needing a temporary clean out or documented mitigation. That starts with written implementation and verification of 
                         practices, allow KQHS LLC to guide you to a proven and healthier facility environment.`,

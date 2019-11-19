@@ -6,38 +6,17 @@ import { GoogleMap, withGoogleMap, withScriptjs, Polygon } from "react-google-ma
 
 import './kqhs-map.css';
 
-
+// surrounding GR cities
 const coords = [
-    { lat: 43.007345, lng: -85.741812 },
-    { lat: 43.007752, lng: -85.728409 },
-    { lat: 42.999067, lng: -85.672861 },
-    { lat: 43.029051, lng: -85.660880 },
-    { lat: 43.028673, lng: -85.636183 },
-    { lat: 43.020460, lng: -85.622967 },
-    { lat: 43.009548, lng: -85.620131 },
-    { lat: 42.992041, lng: -85.610481 },
-    { lat: 43.003854, lng: -85.594709 },
-    { lat: 43.003083, lng: -85.586541 },
-    { lat: 42.977408, lng: -85.590790 },
-    { lat: 42.977191, lng: -85.580241 },
-    { lat: 42.970063, lng: -85.580350 },
-    { lat: 42.969879, lng: -85.590757 },
-    { lat: 42.962467, lng: -85.590937 },
-    { lat: 42.957746, lng: -85.630053 },
-    { lat: 42.941006, lng: -85.629704 },
-    { lat: 42.941122, lng: -85.580476 },
-    { lat: 42.927076, lng: -85.578615 },
-    { lat: 42.927017, lng: -85.570010 },
-    { lat: 42.913010, lng: -85.569111 },
-    { lat: 42.883718, lng: -85.606674 },
-    { lat: 42.884764, lng: -85.645615 },
-    { lat: 42.921333, lng: -85.687056 },
-    { lat: 42.938174, lng: -85.725333 },
-    { lat: 42.965399, lng: -85.741674 },    
-    { lat: 43.008199, lng: -85.742805 },    
-    { lat: 43.007949, lng: -85.730388 },
-    { lat: 43.000205, lng: -85.672863 },
+    { lat: 42.8709, lng: -85.8650},
+    { lat: 42.8123, lng: -85.7228},
+    { lat: 42.7892, lng: -85.5167},
+    { lat: 42.9336, lng: - 85.3420},
+    { lat: 43.1200, lng: - 85.5600},
+    { lat: 42.9722, lng: -85.9540},
+    { lat: 42.8709, lng: -85.8650},
 ];
+
 
 
 export default class KQHSMap extends React.Component {
@@ -53,7 +32,7 @@ export default class KQHSMap extends React.Component {
                         <h4 className='bats-link'>
                            <Link to='/#'>
                                 <strong>
-                                    Got Bats in Your Home?
+                                    Got Mice in Your Home?
                                 </strong>
                             </Link> 
                         </h4>
@@ -107,7 +86,7 @@ export default class KQHSMap extends React.Component {
 
 const KQHSGoogleMap = withScriptjs(withGoogleMap((props) =>
     <GoogleMap
-        defaultZoom={11}
+        defaultZoom={10}
         defaultCenter={{ lat: 42.963360, lng: -85.7 }}
     >
         <Polygon

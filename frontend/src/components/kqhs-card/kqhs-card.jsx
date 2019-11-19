@@ -23,14 +23,14 @@ const content = {
             url:'bedbug'
         },
         {
-            serviceType: "Insect and Vertebrae Animals",
+            serviceType: "Animal Control",
             description: "A pest is a nuisance or unwanted organism (animal/insect) which may cause damage to a human occupied dwelling",
             buttonTxt: "Free Insect Control Quote",
             imgUrl: possumImg,
             url:'pestcontrol'
         },
         {
-            serviceType: "Quality and Sanitation",
+            serviceType: "Consulting",
             description: "Quality to provide a product and/or service that meets and/or exceeds costumer expectations",
             buttonTxt: "Click For Consulting",
             imgUrl: mosquito,
