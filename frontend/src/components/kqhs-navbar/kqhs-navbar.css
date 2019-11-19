@@ -48,3 +48,7 @@
     left: -25px;
     text-align: center;
 }
+
+.nav-icon {
+    overflow: hidden;
+}

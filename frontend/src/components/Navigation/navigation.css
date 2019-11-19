@@ -1,6 +1,6 @@
 .kqhs-navbar {
     background-color: rgba(0,0,0,0.85);
-    overflow: hidden;
+    /* overflow: hidden; */
   }
 
   .kqhs-nav-cntr {
@@ -25,10 +25,10 @@
     }
     .kqhs-hamburger-menu {
       display: block;
-      font-size: 3rem;
+      font-size: 3em;
       color: #8A191B;
       padding: .6rem 0;
-      margin: 1rem;
+      margin: 1em;
       background-color: #C0C0C0;
       border-radius: 5%;
     }

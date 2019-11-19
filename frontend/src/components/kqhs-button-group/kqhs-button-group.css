@@ -22,8 +22,8 @@
     text-transform: uppercase;
     background-color: transparent;
     box-shadow: none;
-    padding: 1rem 2rem;
-    font-size: 1.5rem;
+    padding: 1em 2em;
+    font-size: 1.5em;
     font-weight: bold;
     width: 100%;
     border: 3px solid #8A191B;
@@ -44,14 +44,14 @@
     }
 
     .button-wrapper{
-        margin: 2rem;
+        margin: 2em;
         position: relative;
         display: flex;
         justify-content: center;
     }
 
     .button-wrapper a{
-        font-size: 1rem;
+        font-size: 1em;
         text-align: center;
         width: 80%;
     }

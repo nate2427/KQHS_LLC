@@ -43,7 +43,7 @@ export const aboutData = {
         Wyoming, MI 49548
     `,
     exp2: `
-        facilities with roles ranging from current Operations Supervisor, Quality Supervisor, Pest Control officer(7A, 7D) and Quality Analyst.  My pest control work consist of exclusion work corrective and preventative action plans, facility space spraying, small animal removal, crack and crevice, sanitation etc.
+        facilities with roles ranging from current Operations Supervisor, Quality Supervisor, Pest Control officer(7A, 7D) and Quality Analyst.  My pest control work consist of exclusion work corrective and preventative action plans, facility space spraying, small animal emoval, crack and crevice, sanitation etc.
     `,
     flwUp: `
         Also, as the holder of SQF (Safe Quality Food), PCQI (Preventive Controls Qualified Individual) and HACCP (Hazzard Analysis Critical Control Points) certifications under the FSMA (Food Safety Modernization Act) I am qualified to recognize food and environmental pest safety risk and establish preventative and corrective action for pest infestation control services.
@@ -115,7 +115,7 @@ export const servicesData = {
             title: 'Pest Control, Quality and Sanitation Consulting Detail',
             mainImageUrl: mosquito,
             bodyTextTitle: `Quality to provide a product and/or service that meets and/or exceeds costumer expectations:`,
-            bodyText: `Most establishments have great fundamental practices in place, which they may desire to go to the next level with new developing governmental requirements – whether needing a temporary clean out or documented mitigation. That starts with written implementation and verification of 
+            bodyText: `Most establishments have great fundamental practices in place, which they may desire to go to the next level with new developing governmental requiements – whether needing a temporary clean out or documented mitigation. That starts with written implementation and verification of 
                         practices, allow KQHS LLC to guide you to a proven and healthier facility environment.`,
             categories: [ 
                 "Drain Management services cleaning and maintenance",

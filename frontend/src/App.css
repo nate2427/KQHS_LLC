@@ -6,6 +6,17 @@ body {
   background-size: 65%;
 }
 
+html,
+body {
+  margin: 0;
+  height: 100%;
+
+}
+
+body {
+  overflow-x: hidden;
+}
+
 
 .container-fluid.main-cnt {
   margin-top: 20px;
@@ -50,7 +61,7 @@ body {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  /* overflow: hidden; */
   background-color: #333;
 }
 
@@ -115,7 +126,7 @@ li a:hover {
   }
 
   h1.kqhs-h2-bg a u {
-    font-size: 3rem;
+    font-size: .775em;
   }
   
   .kqhs-card-info-desc {
@@ -126,3 +137,14 @@ li a:hover {
     overflow: unset;
   }
 }
+
+@media only screen and (max-width: 600px) { 
+  .flex-container.reversed,
+  .flex-container.not-reversed {
+    flex-direction: column !important;
+    width: 100%;
+    align-items: center;
+  }
+
+  
+} 
