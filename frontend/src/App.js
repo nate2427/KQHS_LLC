@@ -44,10 +44,10 @@ class App extends React.Component {
               <KQHSMap/>
               <KQHSButtonGroup
                 buttonObjects={[
-                  {name:'Bugs', link:'/pestcontrol'}, 
+                  {name:'Quality Control', link:'/pestcontrol'}, 
                   {name:'Bed Bugs', link:'/bedbug'},
                   {name: 'Termites', link: '/termites'},
-                  {name: 'Weeds', link:'/qualityprograms'}
+                  {name: 'Animal Control', link:'/qualityprograms'}
                 ]}
               />
             </div>

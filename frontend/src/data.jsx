@@ -24,7 +24,7 @@ export const aboutMetaData = {
     phone: "(616)-427-0752",
     email: "kqhsllc@gmail.com",
     addr: "4513 Potter Ave\nGrand Rapids, MI",
-    certs: "Operations Supervisor, Quality Supervisor, Pest Control officer(7A, 7D) and Quality Analyst."
+    certs: "Pest Control Operator(7A, 7B, 7D), ASQ (DQIA, CHA), FFMA, PCQI."
 
 }
 
@@ -42,7 +42,7 @@ export const aboutData = {
     exp1: `
         With extensive training in all areas of pest control, combined with over 10 years
         of practical residential and commercial buildings experience base in pest control and
-        environmental management from my 13 plus years at,
+        environmental management from my 13 plus years.
     `,
     compLoco: `
         Kellogg Snacks

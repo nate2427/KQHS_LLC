@@ -62,7 +62,7 @@ export default class KQHSMap extends React.Component {
                             KQHS LLC Termite and Pest Control offers safe and effective pest control, 
                             quality and sanitation solutions throughout West Michigan – Grand Rapids 
                             area including Byron Center, Caledonia, East Grand Rapids, Grandville, 
-                            and Kentwood, Wyoming.
+                             Kentwood, and Wyoming.
                         </p>
                         <div className='bed-bug-sec'>
                             <h3 className='flexing h3-contain'>

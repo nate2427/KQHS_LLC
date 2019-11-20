@@ -6,13 +6,11 @@ import { faMobileAlt, faEnvelope, faMapMarkerAlt, faCertificate } from '@fortawe
 
 
 import bizCard from "../../static/images/KQHSBusinessCard/KQHSBusinessCard.jpg";
-import famPic from "../../static/images/jim-moony.jpg";
 import { aboutMetaData as metaData, aboutData as data } from "../../data";
 
 
 import './about.css';
 
-const kellogLoco = 'https://www.google.com/maps/place/Kellogg+Co/@42.8955968,-85.6516171,15z/data=!4m5!3m4!1s0x0:0x27da47cee9aa619e!8m2!3d42.8955968!4d-85.6516171';
 
 export default class About extends Component {
     render() {
@@ -28,13 +26,13 @@ export default class About extends Component {
                                 <AboutMetaData />
                             </div>
                             <div className="right-cnt half flexing">
-                                <Image src={famPic} className='kqhs-fam-pic' alt='Me and Wife' />
+                                <Image src={bizCard} className='kqhs-fam-pic' alt='Me and Wife' />
                             </div>
                     </div>
                    </div>
-                   <div className="about-hero-cntr flexing">
+                   {/* <div className="about-hero-cntr flexing">
                         <Image  src={bizCard} className='about-hero-img-banner' alt='hero banner of the business card' fluid />
-                   </div>
+                   </div> */}
                    <div className="kqhs-about-data">
                        <AboutData />
                    </div>
@@ -51,7 +49,7 @@ function AboutMetaData(props) {
             <Table  responsive='md' >
                 <thead>
                     <tr className='about-hdr-rw flexing'>
-                        <th className='kqhs-about-th'>Jim Kilgore</th>
+                        <th className='kqhs-about-th'>Jimmie Kilgore</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -105,14 +103,6 @@ function AboutData() {
                     <br/>
                     <p className='kqhs-data-text grey-color'>
                         {data.exp1}
-                    </p>
-                    <br/>
-                    <p className='kqhs-data-text grey-color center'>
-                        <a className='kellog-link' href={kellogLoco}>{data.compLoco}</a>
-                    </p>
-                    <br/>
-                    <p className='kqhs-data-text grey-color'>
-                        {data.exp2}
                     </p>
                     <br/>
                     <p className='kqhs-data-text grey-color'>

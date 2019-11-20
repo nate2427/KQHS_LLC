@@ -10,28 +10,28 @@ const content = {
     imageCards: [
         {
             serviceType: "Termites",
-            description: "Termites are small insect that live in large colonies typically within a mud mound. Many feed on wood and can be highly destructive to wooden structures and trees",
+            description: "Termites are small insect that live in large colonies typically within a mud mound. Many feed on wood and can be highly destructive to wooden structures and trees.",
             buttonTxt: "Free Bed Bug Treatment Quote",
             imgUrl: termiteImg,
             url: 'termites'
         },
         {
             serviceType: "Bed Bugs",
-            description: "Bed bugs are a bloodsucking parasite of birds and mammals",
+            description: "Bed bugs are a bloodsucking parasite of birds and mammals.",
             buttonTxt: "Free Bed Bug Removal Quote",
             imgUrl: bedBugs,
             url:'bedbug'
         },
         {
             serviceType: "Animal Control",
-            description: "A pest is a nuisance or unwanted organism (animal/insect) which may cause damage to a human occupied dwelling",
+            description: "A pest is a nuisance or unwanted organism (animal/insect) which may cause damage to a human occupied dwelling.",
             buttonTxt: "Free Insect Control Quote",
             imgUrl: possumImg,
             url:'pestcontrol'
         },
         {
-            serviceType: "Consulting",
-            description: "Quality to provide a product and/or service that meets and/or exceeds costumer expectations",
+            serviceType: "Quality Consulting",
+            description: "Quality to provide a product and/or service that meets and/or exceeds costumer expectations.",
             buttonTxt: "Click For Consulting",
             imgUrl: mosquito,
             url:'qualityprograms'
