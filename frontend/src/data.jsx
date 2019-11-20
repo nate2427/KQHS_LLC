@@ -5,7 +5,6 @@ import termites from "./static/images/termites.jpg"
 import mouse from "./static/images/mouse.jpeg"
 import roachChart from "./static/images/roachchart.JPG";
 import bagOfBunnies from "./static/images/bunniestonbags1.jpg";
-import bedbug from "./static/images/bedbug.jpg";
 import bunnyHole from "./static/images/bunnyhole1.JPG";
 import possum from "./static/images/possuminthetree.jpg";
 import mosquito from "./static/images/mosquito1.jpg";
@@ -24,7 +23,7 @@ export const aboutMetaData = {
     phone: "(616)-427-0752",
     email: "kqhsllc@gmail.com",
     addr: "4513 Potter Ave\nGrand Rapids, MI",
-    certs: "Pest Control Operator(7A, 7B, 7D), ASQ (DQIA, CHA), FFMA, PCQI."
+    certs: "Pest Control Operator(7A, 7B, 7D), ASQ CQIA, CHA; FSMA - PCQI"
 
 }
 
@@ -83,7 +82,7 @@ export const servicesData = {
         },
         bedbug: {
             title: "Those Cozy Bed Bugs!",
-            mainImageUrl1: bedbug,
+            mainImageUrl1: roachChart,
             mainImageUrl2: bedbugonfab,
             bodyTextTitle: `Bed bugs are a bloodsucking parasite of birds and mammals:`,
             bodyText: `After feeding, bed bugs move to secluded places and hide for roughly 5-10 days. During this time, they do not feed but instead digest their meal, mate and lay eggs.
